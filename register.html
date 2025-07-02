@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="register">
+            <h1>First Register</h1>
+        <form action="database.php" method="POST">
+            <input type="email" name="email" placeholder="Enter Email"><br><br>
+            <select name="roles" id="role" placeholder="Role"><br><br>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select><br><br>
+            <input type="password" name="pass" placeholder="Enter Your Password"><br><br>
+            <input type="submit" name="submit" value="Register"><br><br>
+            <a class="login" href="login.html">Login</a>
+        </form>
+        </div>
+    </body>
+</html>
