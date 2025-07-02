@@ -1,0 +1,117 @@
+ * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Arial', sans-serif;
+            }
+            
+            body {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .register {
+                background: white;
+                padding: 2.5rem;
+                border-radius: 10px;
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                max-width: 400px;
+                text-align: center;
+            }
+            
+            .register h1 {
+                color: #333;
+                margin-bottom: 1.5rem;
+                font-size: 1.8rem;
+            }
+            
+            form input {
+                width: 100%;
+                padding: 12px 15px;
+                margin-bottom: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 1rem;
+                transition: all 0.3s;
+            }
+            
+            form input:focus {
+                border-color: #667eea;
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+            }
+            
+            form input[type="submit"] {
+                background: linear-gradient(to right, #667eea, #764ba2);
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                margin-top: 0.5rem;
+                padding: 12px;
+                transition: all 0.3s;
+            }
+            .logout{
+                background: linear-gradient(to right, #667eea, #764ba2);
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                margin-top: 0.5rem;
+                padding: 12px;
+                transition: all 0.3s;
+                width: 200px;
+                height: 50px;
+                font-size: 20px;
+                border-radius: 15px;
+                position: relative;
+                top: 50px;
+                right: 200px;
+            }
+            .logout:hover{
+                background: linear-gradient(to right, #5a6fd1, #6a4295);
+                transform: translateY(-2px);
+            }
+            select{
+                width: 100%;
+                padding: 12px 15px;
+                margin-bottom: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 1rem;
+                transition: all 0.3s;
+            }
+            
+            form input[type="submit"]:hover {
+                background: linear-gradient(to right, #5a6fd1, #6a4295);
+                transform: translateY(-2px);
+            }
+            
+            .remember {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1rem 0;
+            }
+            
+            .remember input {
+                width: auto;
+                margin-right: 8px;
+                margin-bottom: 0;
+            }
+            
+            .remember label {
+                color: #666;
+                font-size: 0.9rem;
+            }
+            
+            @media (max-width: 480px) {
+                .register {
+                    padding: 1.5rem;
+                    margin: 0 1rem;
+                }
+            }
